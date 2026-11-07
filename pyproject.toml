@@ -14,11 +14,9 @@ dependencies = [
     "plotly>=7.1.0",
     "scikit-learn>=1.9.1",
     "seaborn>=0.13.2",
+    "tqdm>=4.70.1",
     "yfinance>=1.8.0",
 ]
-
-[project.scripts]
-financial-asset-forecasting = "financial_asset_forecasting:main"
 
 [build-system]
 requires = ["uv_build>=0.12.9,<0.13.0"]
@@ -26,3 +24,9 @@ build-backend = "uv_build"
 
 [tool.uv]
 package = false
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "jupyter>=1.1.1",
+]

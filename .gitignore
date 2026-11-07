@@ -1,5 +1,6 @@
 .idea
 **/.DS_Store
+temp/
 
 # Из https://github.com/github/gitignore/blob/main/Python.gitignore:
 
