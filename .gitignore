@@ -2,6 +2,12 @@
 **/.DS_Store
 temp/
 
+# Local agent context
+/AGENTS.md
+
+# Downloaded datasets and local cache
+/data/
+
 # Из https://github.com/github/gitignore/blob/main/Python.gitignore:
 
 # Byte-compiled / optimized / DLL files
